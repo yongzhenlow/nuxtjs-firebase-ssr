@@ -1,7 +1,13 @@
 {
   "hosting": {
     "public": "static",
-    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nuxtServerless"
+      }
+    ]
   },
   "functions": {
     "source": "firebase/functions",

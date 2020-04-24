@@ -4,7 +4,9 @@
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   },
   "functions": {
-    "source": "firebase/functions"
+    "source": "firebase/functions",
+    "predeploy": "./firebase/scripts/predeploy-functions.sh",
+    "postdeploy": "./firebase/scripts/postdeploy-functions.sh"
   },
   "emulators": {
     "functions": {

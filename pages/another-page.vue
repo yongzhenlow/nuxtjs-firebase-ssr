@@ -1,11 +1,10 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">Home</h1>
-      <h2 class="subtitle">My Nuxt.js project</h2>
+      <img src="/images/150.png" />
+      <h1 class="title">Another Page</h1>
       <div class="links">
-        <nuxt-link class="button--green" to="/another-page">Another page</nuxt-link>
+        <nuxt-link class="button--green" to="/">Home</nuxt-link>
         <a
           href="https://github.com/yongzhenlow/nuxtjs-firebase-ssr"
           target="_blank"
@@ -17,13 +16,7 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
+export default {}
 </script>
 
 <style>

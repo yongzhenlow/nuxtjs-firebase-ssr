@@ -6,6 +6,8 @@ A Nuxt.js universal project configured for deployment on [Firebase Hosting](http
 
 Check out the demo at [https://nuxtjs-firebase-ssr.web.app/](https://nuxtjs-firebase-ssr.web.app/).
 
+> ⚠️ You can now use `nuxt generate` command as of _v2.14.0_ for static site generation to host your web application on any static hosting. Check out [the docs here](https://nuxtjs.org/guide/commands/#static-generated-deployment-pre-rendered).
+
 ## Introduction
 
 This project was generated using [create-nuxt-app](https://github.com/nuxt/create-nuxt-app) with minimal options selected for simplicity. Note that `Universal (SSR)` rendering mode must be selected for this purpose.
